@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    padding: 40px;
+    text-align: center;
+}
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+.project-link {
+    text-decoration: none;
+    color: #222;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 12px 20px;
+    border-radius: 6px;
+    transition: all 0.2s ease-in-out;
+}
+.project-link:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.05);
+}
